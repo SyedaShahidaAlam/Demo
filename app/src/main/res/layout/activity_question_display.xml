@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#D7E5ED"
+    tools:context=".QuestionDisplay">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Question"
+            android:textStyle="bold"
+            android:padding="16dp" />
+
+        <Button
+            android:id="@+id/option1"
+            android:layout_below="@id/questionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 1"
+            android:textSize="16sp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/option2"
+            android:layout_below="@id/option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 2"
+            android:textSize="16sp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/option3"
+            android:layout_below="@id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 3"
+            android:textSize="16sp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/option4"
+            android:layout_below="@id/option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 4"
+            android:textSize="16sp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_below="@id/option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textSize="16sp"
+            android:padding="12dp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
